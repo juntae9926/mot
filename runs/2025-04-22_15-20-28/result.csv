@@ -1,0 +1,6 @@
+detector,tracker,reid,appearance_thresh,MAX_CDIST_TH
+ultralytics,botsort,vit-small-ics,0.25,0.155
+
+video_name,HOTA,IDF1,IDERROR,FS,TIDP,TIDR
+MOT17-02-FRCNN,37.15,44.45,16,15.09,53.33,100.00
+COMBINED_SEQ,37.15,44.45,16,15.09,53.33,100.00

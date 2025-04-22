@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: maytracker
+Version: 0.1
+Summary: mAy-I's Tracker Library
+Author: Juntae Kim
+Author-email: jtkim@may-i.io
+Requires-Python: >=3.10
+Requires-Dist: torch==2.6.0
+Requires-Dist: numpy
+Requires-Dist: ffmpeg-python
+Requires-Dist: loguru
+Requires-Dist: pandas
+Requires-Dist: boto3
+Requires-Dist: ultralytics
+Requires-Dist: pycocotools
+Requires-Dist: tabulate
+Requires-Dist: prettytable
+Requires-Dist: lap
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

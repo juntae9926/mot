@@ -1,0 +1,26 @@
+2025-04-22T12:27:34.843084+0900 INFO 
+Evaluating 1 tracker(s) on 1 sequence(s) for 1 class(es) on MotChallenge2DBox dataset using the following metrics: HOTA, Identity, MAYI, Count
+
+2025-04-22T12:27:34.843371+0900 INFO 
+Evaluating last_benchmark
+
+2025-04-22T12:27:35.274997+0900 INFO 
+All sequences for last_benchmark finished in 0.43 seconds
+2025-04-22T12:27:35.275273+0900 INFO HOTA: last_benchmark-pedestrian         HOTA      DetA      AssA      DetRe     DetPr     AssRe     AssPr     LocA      OWTA      HOTA(0)   LocA(0)   HOTALocA(0)
+2025-04-22T12:27:35.275695+0900 INFO MOT17-02-FRCNN                          11.108    8.6822    14.828    10.11     28.991    19.905    31.28     66.077    12.054    26.501    35.888    9.5109    
+2025-04-22T12:27:35.276027+0900 INFO COMBINED                                11.108    8.6822    14.828    10.11     28.991    19.905    31.28     66.077    12.054    26.501    35.888    9.5109    
+2025-04-22T12:27:36.174421+0900 INFO Identity: last_benchmark-pedestrian     IDF1      IDR       IDP       IDTP      IDFN      IDFP      
+2025-04-22T12:27:36.174747+0900 INFO MOT17-02-FRCNN                          8.2423    5.5584    15.939    551       9362      2906      
+2025-04-22T12:27:36.174888+0900 INFO COMBINED                                8.2423    5.5584    15.939    551       9362      2906      
+2025-04-22T12:27:36.175045+0900 INFO MAYI: last_benchmark-pedestrian         MOTA      Frag      ID_ERROR  IDSW      IDAS      IDSW_R    IDMG      IDTF_R    IDEX      NUM_GT    NUM_HYP   TIDP      TIDR      
+2025-04-22T12:27:36.175207+0900 INFO MOT17-02-FRCNN                          -17.815   37        33        19        10        0         12        2         9         53        37        2.7027    100       
+2025-04-22T12:27:36.175330+0900 INFO COMBINED                                -17.815   37        33        19        10        0         12        2         9         53        37        2.7027    100       
+2025-04-22T12:27:36.175490+0900 INFO Count: last_benchmark-pedestrian        Dets      GT_Dets   IDs       GT_IDs    
+2025-04-22T12:27:36.175600+0900 INFO MOT17-02-FRCNN                          3457      9913      37        53        
+2025-04-22T12:27:36.175709+0900 INFO COMBINED                                3457      9913      37        53        
+2025-04-22T12:27:36.180840+0900 INFO 
++--------+--------+------------+-------+------+--------+
+|   HOTA |   IDF1 |   ID_ERROR |    LD |   FS |   TIDP |
++========+========+============+=======+======+========+
+|  11.11 |   8.24 |         33 | 30.19 |  2.7 |    100 |
++--------+--------+------------+-------+------+--------+

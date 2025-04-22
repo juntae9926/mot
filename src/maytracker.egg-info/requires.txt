@@ -1,0 +1,11 @@
+torch==2.6.0
+numpy
+ffmpeg-python
+loguru
+pandas
+boto3
+ultralytics
+pycocotools
+tabulate
+prettytable
+lap
